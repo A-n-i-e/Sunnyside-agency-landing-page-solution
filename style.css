@@ -373,6 +373,10 @@ footer{
     }
     .product-text{
         height: 400px;
+        text-align: center;
+    }
+    .product-text a{
+        margin: 0 auto;
     }
     .egg{
         grid-row-start:1 ;
