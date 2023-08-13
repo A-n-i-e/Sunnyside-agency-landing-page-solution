@@ -28,6 +28,7 @@ html {
     width: 100%;
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -97,8 +98,10 @@ header nav ul li a {
     padding-top: 5rem;
 }
 
-.arrow button {
-    padding-top: 6rem;
+.arrow a{
+    display: block;
+    text-decoration: none;
+    padding-top: 6em;
     cursor: pointer;
     outline: none;
     background-color: transparent;
